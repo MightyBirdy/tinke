@@ -53,7 +53,6 @@ namespace Fonts
             this.font = font;
             ReadLanguage();
             this.palette = NFTR.CalculatePalette(font.plgc.depth, inversePalette);
-
             for (int i = 0; i < font.plgc.tiles.Length; i++)
                 comboChar.Items.Add("Char " + i.ToString());
 
